@@ -1,0 +1,175 @@
+#body {
+    background-color: dimgrey;
+}
+
+#start-button {
+    width: 120px;
+    height: 65px;
+    border-radius: 12px;
+    color: lightyellow;
+    background-color: indianred;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#computer-choose-color {
+    position: fixed;
+    top: 28%;
+    left: 27%;
+    visibility: hidden;
+}
+
+.card {
+    width: 90px;
+    background-color: dimgrey;
+}
+
+.player-card-button {
+    width: 90px;
+    background-color: dimgrey;
+    position: absolute;
+    bottom: 2.5%;
+    left: 30%;
+    color: dimgrey;
+    border: none;
+}
+
+.computer-card-button {
+    width: 90px;
+    margin: 10px;
+    background-color: dimgrey;
+    color: white;
+    border: none;
+}
+
+.computer-container {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    background-color: dimgrey;
+}
+
+.player-container {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    background-color: dimgrey;
+}
+
+.discard-card {
+    width: 90px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.back-card {
+    width: 90px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.card-button:hover,
+.card-button:focus-within {
+    transform: scale(1.12);
+}
+
+.card-button {
+    background-color: dimgrey;
+    color: dimgrey;
+    border: none;
+}
+
+.center-card {
+    background-color: dimgrey;
+    color: dimgrey;
+    border: none;
+}
+
+.wild-card {
+    width: 50px;
+    background-color: dimgrey;
+    color: black;
+    border: black;
+}
+
+#wild-header {
+    width: 110px;
+    height: 45px;
+    text-align: center;
+    position: fixed;
+    top: 28%;
+    left: 27%;
+}
+
+#choose-div {
+    top: 40%;
+    left: 27%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+}
+
+#choose-red {
+    width: 110px;
+    height: 45px;
+    background-color: indianred;
+    position: relative;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#player-win {
+    font-size: 80px;
+    color: lightgreen;
+    top: 50%;
+    left: 27%;
+    position: relative;
+    visibility: hidden;
+}
+
+#computer-win {
+    font-size: 80px;
+    color: red;
+    top: 50%;
+    left: 27%;
+    position: relative;
+    visibility: hidden;
+}
+
+#choose-blue {
+    width: 110px;
+    height: 45px;
+    background-color: deepskyblue;
+    position: relative;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#choose-yellow {
+    width: 110px;
+    height: 45px;
+    background-color: yellow;
+    position: relative;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#choose-green {
+    width: 110px;
+    height: 45px;
+    background-color: forestgreen;
+    position: relative;
+    border-radius: 10px;
+}

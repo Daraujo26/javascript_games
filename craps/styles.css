@@ -1,0 +1,38 @@
+#contents {
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#body {
+    background-color: lightgray;
+}
+
+#header {
+    font-size: 45px;
+}
+
+#first-dice {
+    width: 90px;
+}
+
+#second-dice {
+    width: 90px;
+}
+
+#main-button {
+    width: 175px;
+    height: 50px;
+    background-color: dodgerblue;
+    border-color: darkblue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#win-message {
+    visibility: hidden;
+}
